@@ -13,7 +13,7 @@
 
 ## Download
 
-Braid is in beta. Get the latest beta from [Releases](https://github.com/tonytrangit/braid/releases) (or [download Braid 0.0.3 directly](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.3.zip)). Unzip it and move **Braid** to your Applications folder.
+Braid is in beta. Get the latest beta from [Releases](https://github.com/tonytrangit/braid/releases) (or [download Braid 0.0.4 directly](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.4.zip)). Unzip it and move **Braid** to your Applications folder.
 
 The first time you open it, macOS may say it can't verify the developer. Open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. You only need to do this once. After that, Braid updates itself.
 

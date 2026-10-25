@@ -1,0 +1,1 @@
+- Verifying copies is now almost free on SSDs: each file is checked while the next one copies (3 GB test: 11.7 s before, 6.5 s now, the same as not checking).
