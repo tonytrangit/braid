@@ -1,3 +1,5 @@
+<p align="center"><img src="brand/braid-icon.svg" width="160" alt="Braid"></p>
+
 # Braid
 
 **Multi-Way Sync for photographers.** Braid keeps a Capture One session (or any folder) and every backup drive identical, whichever one you worked on last. You see every change before anything is written, and replaced files go to an `_Archive` folder, so nothing is lost by accident.
