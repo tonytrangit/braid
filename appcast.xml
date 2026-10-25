@@ -4,13 +4,13 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 1.0.0</title>
-      <pubDate>Sun, 25 Oct 2026 19:43:35 +0000</pubDate>
-      <sparkle:version>1</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <title>Braid 1.0.1</title>
+      <pubDate>Sun, 25 Oct 2026 20:54:50 +0000</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>First release of Braid: Multi-Way Sync and One-Way Backup for Capture One sessions and any folder.</li><li>Sync Check shows every change before anything is written; replaced files go to _Archive.</li><li>Every copy is checked with xxHash64, with ASC MHL records on each drive and a PDF/CSV transfer report.</li><li>Verify Drive re-reads a backup and proves it is intact.</li><li>Braid now updates itself: you'll be asked when a new version is out.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-1.0.0.zip" sparkle:edSignature="N1IZCxGQJ0GPZNnufXxHasvecfdJzJ2KoOEs9QGvQA4hRqqLUAI4+ijHXTXooKuIELB7C46RW71TXcOChwX5Dg==" length="2691952" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>New app icon: the Braid ribbon B.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-1.0.1.zip" sparkle:edSignature="zOR2hCrpUV/CO4rub3pHRuquzAXaBhoxOfmAmh7pfV13QQu9ik8pDnJZYrNNoa5EFL4WQo8dtYGm+FjS6hnrCA==" length="2896208" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
