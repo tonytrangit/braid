@@ -1,0 +1,24 @@
+# When a new appcast.xml is pushed, post that version on the Releases page with its zip attached.
+name: Publish release
+on:
+  push:
+    branches: [main]
+    paths: [appcast.xml]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create the release if it is new
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(grep -o '<sparkle:shortVersionString>[^<]*' appcast.xml | head -1 | sed 's/.*>//')
+          TAG="v$VERSION"
+          ZIP="downloads/Braid-$VERSION.zip"
+          if gh release view "$TAG" >/dev/null 2>&1; then echo "$TAG already published"; exit 0; fi
+          NOTES="downloads/Braid-$VERSION-notes.txt"
+          [ -f "$NOTES" ] || echo "Braid $VERSION" > "$NOTES"
+          gh release create "$TAG" "$ZIP" --title "Braid $VERSION" --notes-file "$NOTES" --target "$GITHUB_SHA"
