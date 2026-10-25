@@ -11,7 +11,7 @@
 
 ## Download
 
-Get the latest version from [Releases](https://github.com/tonytrangit/braid/releases/latest). Unzip it and move **Braid** to your Applications folder.
+Get the latest version from [Releases](https://github.com/tonytrangit/braid/releases/latest) (or [download Braid 1.0.0 directly](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-1.0.0.zip)). Unzip it and move **Braid** to your Applications folder.
 
 The first time you open it, macOS may say it can't verify the developer. Open **System Settings → Privacy & Security**, scroll down and click **Open Anyway**. You only need to do this once. After that, Braid updates itself.
 
