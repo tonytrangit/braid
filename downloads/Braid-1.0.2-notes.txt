@@ -1,0 +1,1 @@
+- Polished app icon: smoother ribbon B, centred in the tile.
