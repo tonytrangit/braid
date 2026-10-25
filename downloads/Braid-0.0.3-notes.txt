@@ -1,0 +1,2 @@
+- Braid is in beta: versions are now numbered 0.0.x until the first full release.
+- A drive unplugged mid-copy is now always reported as disconnected.

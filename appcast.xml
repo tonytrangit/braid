@@ -4,13 +4,13 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 1.0.2</title>
-      <pubDate>Sun, 25 Oct 2026 21:40:51 +0000</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <title>Braid 0.0.3</title>
+      <pubDate>Sun, 25 Oct 2026 21:47:50 +0000</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul><li>Polished app icon: smoother ribbon B, centred in the tile.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-1.0.2.zip" sparkle:edSignature="D4sP7iR+ClxylqR8oTPL+nMDdYFx6V/Dwy1cJ1o7WRlahBRB0Ud/ICbUjy3AKY2mXVzuseSJnLyPfZYvQ+WUAA==" length="2890938" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>Braid is in beta: versions are now numbered 0.0.x until the first full release.</li><li>A drive unplugged mid-copy is now always reported as disconnected.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.3.zip" sparkle:edSignature="FWfRfbBI/qRioc8QgJWYO8WBLZ80gWu1mwMQU1ye5n8NC15hn93EJeVuiAY/cMoWPs6W8HIJFWhIRmHCAYKrCA==" length="2890900" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

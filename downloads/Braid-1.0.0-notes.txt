@@ -1,5 +1,0 @@
-- First release of Braid: Multi-Way Sync and One-Way Backup for Capture One sessions and any folder.
-- Sync Check shows every change before anything is written; replaced files go to _Archive.
-- Every copy is checked with xxHash64, with ASC MHL records on each drive and a PDF/CSV transfer report.
-- Verify Drive re-reads a backup and proves it is intact.
-- Braid now updates itself: you'll be asked when a new version is out.

@@ -21,4 +21,6 @@ jobs:
           if gh release view "$TAG" >/dev/null 2>&1; then echo "$TAG already published"; exit 0; fi
           NOTES="downloads/Braid-$VERSION-notes.txt"
           [ -f "$NOTES" ] || echo "Braid $VERSION" > "$NOTES"
-          gh release create "$TAG" "$ZIP" --title "Braid $VERSION" --notes-file "$NOTES" --target "$GITHUB_SHA"
+          # 0.x versions are betas: posted as pre-releases.
+          PRE=""; case "$VERSION" in 0.*) PRE="--prerelease";; esac
+          gh release create "$TAG" "$ZIP" --title "Braid $VERSION" --notes-file "$NOTES" --target "$GITHUB_SHA" $PRE
