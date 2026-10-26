@@ -29,4 +29,4 @@ Requires macOS 14 Sonoma or later.
 
 ---
 
-Made by [Tony Tran](https://github.com/tonytrangit).
+Made by [Tony Tran](https://tonytran.co.uk).
