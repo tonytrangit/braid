@@ -1,0 +1,19 @@
+- Verifying copies is now almost free on SSDs: each file is checked while the next one copies.
+- Steadier time left: learns how long small and big files take on each drive, waits for enough to go on, and only counts down smoothly.
+- Capture One gets priority when the Mac is under strain: Braid goes easy while memory is tight and pauses briefly as tethered shots land. Full speed whenever the Mac can take it.
+- The progress panel no longer shifts as steps, numbers and notes change.
+- New "Test Speed" button next to Eject All: tests every backup drive in one window, one after another for true top speeds.
+- Speed tests now show how each drive is connected (USB 2, USB 3 at 5/10/20 Gb/s, Thunderbolt) and say whether a slow result is the cable or the drive.
+- Speed tests now run for a set time (5, 10 or 20 seconds) instead of a set size, so slow and fast drives are measured fairly.
+- Smart card import: finds the camera's latest shoot day, skips shots already in the session (even if renamed), and names files with tags (Job Name, Folder, Parent Folder, Counter, Original Name, Date) and a 1–5 digit counter. Offers to import when a card is plugged in; also File › Import from Card or Folder… and dropping a card on the Dock icon.
+- Capture One LiveSync (off by default, switch in the source box and in task Settings): new and changed files reach your connected drives within seconds, checked, always behind Capture One, waiting when the Mac is short of memory.
+- Menu bar icon: the task you're working on, its progress and time left, a one-click Start Sync / Start Backup (it checks the drives first and opens Braid if anything needs a decision), and the LiveSync switch.
+- Pre-shoot check: drives, cables, drive health where reported, free space and roughly how many more shots fit.
+- End of Day: final backup, every drive read back and checked, one PDF report per drive (and a full one in the master) in “_Braid/Reports”, replaced each time, then ready to eject (ejecting stays manual).
+- Restore: browse old versions and removed files in the Archive by time, search, preview and bring them back. Nothing is ever overwritten.
+- Phone alerts by iMessage to yourself through Messages on the Mac (Settings › Phone alerts).
+- History notes the shoot folders each backup covered.
+- Braid's own files now live in one “_Braid” folder (Archive, ascmhl, Reports); older drives are tidied into it automatically.
+- One task runs at a time: while it does, the others are greyed out in the sidebar.
+- Closing the window keeps Braid running in the menu bar; Quit (⌘Q) closes everything.
+- New installer: drag Braid to Applications, then double-click "Finish Installing".

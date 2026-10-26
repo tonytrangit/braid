@@ -1,4 +1,4 @@
-# When a new appcast.xml is pushed, post that version on the Releases page with its zip attached.
+# When a new appcast.xml is pushed, post that version on the Releases page with its installer (dmg) and zip attached.
 name: Publish release
 on:
   push:
@@ -23,4 +23,7 @@ jobs:
           [ -f "$NOTES" ] || echo "Braid $VERSION" > "$NOTES"
           # 0.x versions are betas: posted as pre-releases.
           PRE=""; case "$VERSION" in 0.*) PRE="--prerelease";; esac
-          gh release create "$TAG" "$ZIP" --title "Braid $VERSION" --notes-file "$NOTES" --target "$GITHUB_SHA" $PRE
+          ASSETS="$ZIP"
+          DMG="downloads/Braid-$VERSION.dmg"
+          [ -f "$DMG" ] && ASSETS="$DMG $ZIP"
+          gh release create "$TAG" $ASSETS --title "Braid $VERSION" --notes-file "$NOTES" --target "$GITHUB_SHA" $PRE
