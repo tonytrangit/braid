@@ -1,0 +1,10 @@
+- Much faster copying, still checked: in a test with 20,000 small Capture One files and 12 RAWs, Braid finished in half the time of a Finder copy while checking every file.
+- Small files (Capture One settings, caches, previews) are copied 8 at a time on SSDs and RAIDs. Hard drives still get one steady stream.
+- No more waiting after every single file: drives commit their writes every few seconds and always before they're marked done. This was what made RAIDs slow.
+- Big files are read and written at the same time, and their space is reserved up front.
+- Several drives at once: each piece of the session is read once and handed to every drive.
+- Faster check before each sync on big sessions.
+- The speed shown is now the drive's real write speed, plus files per second when there are lots of small files.
+- Renaming a Capture One session: if Capture One is idle (checked twice), Braid closes it, renames the folder and session, and opens it again. It never closes Capture One while you're tethering, importing or processing.
+- New "Reports on the drives" setting, off by default: client drives only get their files (and the Archive). When on, the End of Day PDF goes in “_Braid”.
+- Simpler installer: just drag Braid to Applications.
