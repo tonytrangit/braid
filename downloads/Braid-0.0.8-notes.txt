@@ -1,0 +1,11 @@
+- Important safety update: a second full review found more ways files could be lost or wrongly reported as safe. All are fixed. Please update.
+- Removing files from a drive: Braid only removes a file or folder if it is exactly what you reviewed in the preview. Anything added or changed since is kept. "Delete Everywhere" uses the last-synced list and is skipped if the folder is back.
+- Renames that only change capital letters can no longer delete or replace the wrong file.
+- If a backup drive is unplugged and a different drive (or a link) appears at the same place mid-run, Braid stops instead of writing to it.
+- Date-only fixes and same-size files on two drives are checked by content, so a changed file is never kept by mistake.
+- A drive marked "up to date" is checked again before Braid says so, and Verify says when a drive is behind the master.
+- Braid never quits Capture One itself any more (a tethered shoot could look idle). It asks you to close it and renames when you do.
+- LiveSync finishes or pauses before a backup, rename, import, restore or archive starts, also when two tasks share folders, and keeps waiting changes for an unplugged drive.
+- Free space is checked before every large copy, including copies that replace a failed move.
+- Restore puts files back under their exact original names. Card import notices a file changed during import.
+- Speed tests count as work, so nothing else starts on that drive meanwhile. Many smaller fixes.
