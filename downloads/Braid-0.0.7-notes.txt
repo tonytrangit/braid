@@ -1,0 +1,13 @@
+- Important safety update: a full review of the app (by two independent reviewers and a set of new stress tests) found and fixed dozens of problems. Please update.
+- Fixed: big files (RAWs, video) could be given a wrong checksum, so a later check could call a good file "damaged".
+- Fixed: a drive with plenty of room could be refused for a small copy. Braid now keeps at most 10 GB free on a drive, and files that only differ by date (for example a one-hour shift after the clocks change) are checked and have just their date corrected, nothing re-copied.
+- End of Day only says "all match" when every file of the master is really on each drive and checked.
+- Two drives with the same name are never mixed up any more (LiveSync, renames, Empty Archives, reports).
+- Multi-Way Sync is much safer: unreadable folders are never taken as deletions, a blank replacement drive can't delete files from the master, the same file edited on two drives is shown as a conflict, files added after the preview are never removed, and files are never brought in half-written.
+- Renamed files and folders are only reused when their contents really match. Links (symlinks) can't redirect copies outside the backup folder.
+- Your own folders named "_Archive", "ascmhl" or starting with ".ub-tmp" are backed up normally and never moved or deleted.
+- Capture One catalogue changes still waiting in its log file now reach the drives. Braid only closes Capture One for a rename when it's sure it's idle; otherwise it asks you to close it, or renames as soon as you do.
+- LiveSync: keeps up after errors, follows changes to the deletion setting, never overwrites a file changed on a drive in Multi-Way, and steps aside properly during backups, End of Day, Import and Restore.
+- Card import checks the full file before skipping a shot as "already imported", and notices a swapped card.
+- Restore keeps every different version, and only merges copies that are truly identical.
+- Eject only unmounts the drive you chose. Many smaller fixes.

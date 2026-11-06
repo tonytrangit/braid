@@ -13,7 +13,7 @@
 
 ## Download
 
-Braid is in beta. **[Download the Braid installer (0.0.6)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.6.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
+Braid is in beta. **[Download the Braid installer (0.0.7)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.7.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
 
 1. Open the installer and drag **Braid** onto **Applications**.
 2. Open Braid. Braid isn't on the App Store yet, so the first time macOS may say it can't be opened or is "damaged". It isn't: open **System Settings → Privacy & Security** and click **Open Anyway**, or paste this into Terminal:
