@@ -1,0 +1,9 @@
+- This version is One-Way Backup only. Multi-Way Sync is paused while it gets another full review: a Multi-Way task you already have is kept exactly as it is (folders, drives, settings and history) and shows as paused. Nothing is checked, synced or changed for it until a later version brings Multi-Way Sync back.
+- "Include files that arrive during a backup" is off in this version, so every backup reports only what it checked.
+- A drive is only reported identical if it matches the master as it is at the end of the backup. A photo added during the backup, a file rewritten without changing its size or date, a master folder Braid couldn't read, or a name the drive can't store means "finished with issues", and the next backup takes care of it.
+- Nothing on a drive is overwritten or removed unless it's exactly the file shown in the check. Something edited or added on the drive after the check is left as it is.
+- A backup folder that didn't exist yet can't be redirected somewhere else, and a drive swapped or moved during a backup is never written to.
+- A leftover temporary file that Braid can't prove is its own goes to the Archive, never straight to deletion. A photo of yours with a name like Braid's temporary files is backed up normally.
+- Capture One sessions open while you back up are checked more carefully: a change Capture One is still holding in its log file is always copied, and a drive's copy of a session is only reported identical if it's exactly the snapshot Braid took.
+- Restore puts back exactly the version you chose. Verify compares content with the master even when sizes and dates match.
+- Many smaller fixes from three more rounds of review.

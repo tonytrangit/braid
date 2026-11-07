@@ -2,25 +2,26 @@
 
 # Braid
 
-**Multi-Way Sync for photographers.** Braid keeps a Capture One session (or any folder) and every backup drive identical, whichever one you worked on last. You see every change before anything is written, and replaced files go to an Archive inside a `_Braid` folder, so nothing is lost by accident.
+**Safe backups for photographers.** Braid copies a Capture One session (or any folder) to every backup drive and proves each copy is complete. You see every change before anything is written, and replaced or removed files go to an Archive inside a `_Braid` folder, so nothing is lost by accident.
 
-- **Multi-Way Sync** and **One-Way Backup**
-- **Sync Check:** a full plan of what will be copied, updated and removed on every drive, before you start
+- **One-Way Backup** to as many drives as you like
+- **Backup Check:** a full plan of what will be copied, updated and removed on every drive, before you start
 - **Checksums:** every file is verified with xxHash64, with ASC MHL records on each drive and a PDF/CSV transfer report
 - **Verify Drive:** re-reads a backup and proves it is intact
-- **Built for shooting days:** files that arrive mid-sync are picked up, and unplugged drives catch up next time
-- **Capture One aware:** open, rename and back up sessions safely
+- **Honest results:** a drive is only reported identical when it really matches the master; unplugged drives catch up next time
+- **Capture One aware:** open sessions are backed up as consistent snapshots, and sessions can be renamed safely
+
+Multi-Way Sync is paused in this version while it gets another full review. If you already have a Multi-Way task, it's kept exactly as it is and shown as paused; a later version will bring it back.
 
 ## Download
 
-Braid is in beta. **[Download the Braid installer (0.0.8)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.8.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
+Braid is in beta. **[Download the Braid installer (0.0.9)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.9.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
 
-1. Open the installer and drag **Braid** onto **Applications**.
-2. Open Braid. Braid isn't on the App Store yet, so the first time macOS may say it can't be opened or is "damaged". It isn't: open **System Settings → Privacy & Security** and click **Open Anyway**, or paste this into Terminal:
+Braid isn't on the App Store yet, so macOS asks you to allow it **twice**: once for the installer and once for the app.
 
-   ```
-   xattr -dr com.apple.quarantine /Applications/Braid.app
-   ```
+1. **Allow the installer.** Double-click the downloaded `Braid-0.0.9.dmg`. If macOS says it can't be opened, open **System Settings → Privacy & Security**, scroll down to the message about Braid, and click **Open Anyway**. Then open the installer again.
+2. Drag **Braid** onto **Applications**.
+3. **Allow the app.** Open Braid from Applications. If macOS says it can't be opened (or that it's "damaged"), go back to **System Settings → Privacy & Security** and click **Open Anyway** again, this time for the app. Then open Braid again.
 
 You only need to do this once. After that, Braid updates itself.
 
