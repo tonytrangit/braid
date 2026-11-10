@@ -4,15 +4,15 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.9</title>
-      <pubDate>Sat, 07 Nov 2026 07:04:47 +0000</pubDate>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>0.0.9</sparkle:shortVersionString>
+      <title>Braid 0.0.10</title>
+      <pubDate>Tue, 10 Nov 2026 00:12:00 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.0.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <!-- Every update matters: no "Skip This Version" button. -->
       <sparkle:criticalUpdate></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>This version is One-Way Backup only. Multi-Way Sync is paused while it gets another full review: a Multi-Way task you already have is kept exactly as it is (folders, drives, settings and history) and shows as paused. Nothing is checked, synced or changed for it until a later version brings Multi-Way Sync back.</li><li>"Include files that arrive during a backup" is off in this version, so every backup reports only what it checked.</li><li>A drive is only reported identical if it matches the master as it is at the end of the backup. A photo added during the backup, a file rewritten without changing its size or date, a master folder Braid couldn't read, or a name the drive can't store means "finished with issues", and the next backup takes care of it.</li><li>Nothing on a drive is overwritten or removed unless it's exactly the file shown in the check. Something edited or added on the drive after the check is left as it is.</li><li>A backup folder that didn't exist yet can't be redirected somewhere else, and a drive swapped or moved during a backup is never written to.</li><li>A leftover temporary file that Braid can't prove is its own goes to the Archive, never straight to deletion. A photo of yours with a name like Braid's temporary files is backed up normally.</li><li>Capture One sessions open while you back up are checked more carefully: a change Capture One is still holding in its log file is always copied, and a drive's copy of a session is only reported identical if it's exactly the snapshot Braid took.</li><li>Restore puts back exactly the version you chose. Verify compares content with the master even when sizes and dates match.</li><li>Many smaller fixes from three more rounds of review.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.9.zip" sparkle:edSignature="92+yFP1+rxsKqP7VGmNPsyuwqzxrbegbIKA33nEEtoXKEBdCkmRsEvSuGIrvggBpon2opPWxWFlQoYm1NJUeDw==" length="4002735" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>When you keep shooting during a backup, and new photos are the only thing a drive doesn't have yet, the backup now finishes calmly: "Backup complete. New files will be included in the next backup." No orange warning or failure sound. The drive still isn't called identical until the next backup copies them. Anything else that changed (an edited, renamed or removed file, a Capture One session database that changed, something unreadable, a name the drive can't store) still asks you to look.</li><li>A Backup Check after LiveSync no longer reads every photo LiveSync already copied and checked again in full, so it's much quicker. A copy that changed on either side since (even keeping its size and date) is still read and compared.</li><li>Still One-Way Backup only, as in 0.0.9: Multi-Way Sync stays paused, and files that arrive during a backup wait for the next one.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.10.zip" sparkle:edSignature="y6YVD5P9vafSqBQovR7BFUhjZ++3AmfE2WzNJHaeVEoP3kGBFbSc0O3idpaewG6U+ErC7LRITzJKVhgn0W9iBA==" length="3932376" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
