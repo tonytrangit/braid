@@ -1,0 +1,8 @@
+- Start Backup is now one click: Braid checks every drive and starts copying straight away when nothing needs a decision. If something does (a large deletion, a folder deleted on a drive), you see the plan and approve it first. Backup Check still shows the plan without copying.
+- LiveSync for One-Way backups now keeps every connected drive a full copy as you shoot: new photos, edits, renames and moves (moved as moves, not copied again) and deletions, a few seconds after the changes stop. A file still being written, or the session database while Capture One is busy with it, waits for the next round.
+- Deleting more than 1 GB from Capture, even a little at a time, waits for your approval before it reaches the drives.
+- Check a camera card against the session before you format it: from the source folder's menu, Braid compares every image's full contents and lists anything it can't prove is in the session. It never erases the card.
+- While LiveSync runs, Braid warns when a backup drive is going to fill up at your current shooting rate.
+- The first comparison of a drive shows its progress, and the source card shows the backup source size.
+- Moves and renames on exFAT drives are now done as moves, not copies.
+- Still One-Way Backup only: Multi-Way Sync stays paused.
