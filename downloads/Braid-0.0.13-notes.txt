@@ -1,0 +1,3 @@
+- See what's new in Settings.
+- Eject drives from Braid.
+- One-Way Backup only.
