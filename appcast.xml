@@ -4,15 +4,16 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.11</title>
-      <pubDate>Fri, 13 Nov 2026 23:23:39 +0000</pubDate>
-      <sparkle:version>12</sparkle:version>
-      <sparkle:shortVersionString>0.0.11</sparkle:shortVersionString>
+      <title>Braid 0.0.12</title>
+      <pubDate>Sat, 14 Nov 2026 00:08:28 +0000</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>0.0.12</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <!-- Every update matters: no "Skip This Version" button. -->
-      <sparkle:criticalUpdate></sparkle:criticalUpdate>
+      <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
+           themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
+      <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
       <description><![CDATA[<ul><li>Start backups in one click.</li><li>LiveSync mirrors changes as you shoot, including moves and renames.</li><li>Approve Capture deletions over 1 GB.</li><li>Check camera cards against the session before formatting.</li><li>See drive space forecasts, check progress and source folder size.</li><li>One-Way Backup only.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.11.zip" sparkle:edSignature="3MLJzyM2b5anZ4MtDPqoXPUSGaQBVS9jTByU+1ChucZLyhWms288ashnuGbJlzg2pn5g6TOvqt0PUX7rYfu1BA==" length="4249783" type="application/octet-stream"/>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.12.zip" sparkle:edSignature="+oyiI8iIVhgcPkQ8U8U6TFmrZM3VDxolyTlYABhtDmXrlx4Prh1zLLx+2CHH1EUE6E/Y76YfmVD1e8jQnJkLAw==" length="4252711" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

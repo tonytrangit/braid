@@ -1,0 +1,6 @@
+- Start backups in one click.
+- LiveSync mirrors changes as you shoot, including moves and renames.
+- Approve Capture deletions over 1 GB.
+- Check camera cards against the session before formatting.
+- See drive space forecasts, check progress and source folder size.
+- One-Way Backup only.

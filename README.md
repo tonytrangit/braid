@@ -15,11 +15,11 @@ Multi-Way Sync is paused in this version while it gets another full review. If y
 
 ## Download
 
-Braid is in beta. **[Download the Braid installer (0.0.11)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.11.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
+Braid is in beta. **[Download the Braid installer (0.0.12)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.12.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
 
 Braid isn't on the App Store yet, so macOS asks you to allow it **twice**: once for the installer and once for the app.
 
-1. **Allow the installer.** Double-click the downloaded `Braid-0.0.11.dmg`. If macOS says it can't be opened, open **System Settings → Privacy & Security**, scroll down to the message about Braid, and click **Open Anyway**. Then open the installer again.
+1. **Allow the installer.** Double-click the downloaded `Braid-0.0.12.dmg`. If macOS says it can't be opened, open **System Settings → Privacy & Security**, scroll down to the message about Braid, and click **Open Anyway**. Then open the installer again.
 2. Drag **Braid** onto **Applications**.
 3. **Allow the app.** Open Braid from Applications. If macOS says it can't be opened (or that it's "damaged"), go back to **System Settings → Privacy & Security** and click **Open Anyway** again, this time for the app. Then open Braid again.
 
