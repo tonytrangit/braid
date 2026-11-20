@@ -4,16 +4,16 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.13</title>
-      <pubDate>Sat, 14 Nov 2026 14:10:07 +0000</pubDate>
-      <sparkle:version>14</sparkle:version>
-      <sparkle:shortVersionString>0.0.13</sparkle:shortVersionString>
+      <title>Braid 0.0.14</title>
+      <pubDate>Fri, 20 Nov 2026 02:01:55 +0000</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.0.14</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
            themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
       <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>See what's new in Settings.</li><li>Eject drives from Braid.</li><li>One-Way Backup only.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.13.zip" sparkle:edSignature="ZonUasnGgMBCVQ29a9V4ZSqnJV3iPPgtVU4PANPpGqk0sG89eaQvvO44a1n29bOXkpSfeLsXDcz3gOYazViMAQ==" length="4435852" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>Share Capture One sessions with clients for online review.</li><li>Client ratings and colour tags sync back to Capture One.</li><li>Gallery edits sync even while Braid is closed.</li><li>Get a notification when a client edit reaches Capture One.</li><li>Switch the source to a connected backup drive and keep the same gallery link.</li><li>Card Check turns green only when a backup drive is connected.</li><li>Braid asks before removing many files from your drives.</li><li>LiveSync recovers on its own after brief drive hiccups.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.14.zip" sparkle:edSignature="u9ObjvWvQrC/Qz002Ed+7amSmeg3hNjYnQPvixp8bp2dmvvRj5HmE7QOhjAZH5JmCmrA12qWZbAJzEiwaGtrDg==" length="9757270" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

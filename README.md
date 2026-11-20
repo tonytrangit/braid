@@ -10,16 +10,17 @@
 - **Verify Drive:** re-reads a backup and proves it is intact
 - **Honest results:** a drive is only reported identical when it really matches the master; unplugged drives catch up next time
 - **Capture One aware:** open sessions are backed up as consistent snapshots, and sessions can be renamed safely
+- **Client Review:** share a Capture One session online through your own free Cloudflare account and sync client ratings and colour tags back to the session
 
 Multi-Way Sync is paused in this version while it gets another full review. If you already have a Multi-Way task, it's kept exactly as it is and shown as paused; a later version will bring it back.
 
 ## Download
 
-Braid is in beta. **[Download the Braid installer (0.0.13)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.13.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
+Braid is in beta. **[Download the Braid installer (0.0.14)](https://github.com/tonytrangit/braid/raw/main/downloads/Braid-0.0.14.dmg)**, or find every version on [Releases](https://github.com/tonytrangit/braid/releases).
 
 Braid isn't on the App Store yet, so macOS asks you to allow it **twice**: once for the installer and once for the app.
 
-1. **Allow the installer.** Double-click the downloaded `Braid-0.0.13.dmg`. If macOS says it can't be opened, open **System Settings → Privacy & Security**, scroll down to the message about Braid, and click **Open Anyway**. Then open the installer again.
+1. **Allow the installer.** Double-click the downloaded `Braid-0.0.14.dmg`. If macOS says it can't be opened, open **System Settings → Privacy & Security**, scroll down to the message about Braid, and click **Open Anyway**. Then open the installer again.
 2. Drag **Braid** onto **Applications**.
 3. **Allow the app.** Open Braid from Applications. If macOS says it can't be opened (or that it's "damaged"), go back to **System Settings → Privacy & Security** and click **Open Anyway** again, this time for the app. Then open Braid again.
 

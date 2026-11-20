@@ -1,0 +1,8 @@
+- Share Capture One sessions with clients for online review.
+- Client ratings and colour tags sync back to Capture One.
+- Gallery edits sync even while Braid is closed.
+- Get a notification when a client edit reaches Capture One.
+- Switch the source to a connected backup drive and keep the same gallery link.
+- Card Check turns green only when a backup drive is connected.
+- Braid asks before removing many files from your drives.
+- LiveSync recovers on its own after brief drive hiccups.
