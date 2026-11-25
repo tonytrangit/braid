@@ -4,16 +4,16 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.15</title>
-      <pubDate>Wed, 25 Nov 2026 11:14:28 +0000</pubDate>
-      <sparkle:version>45</sparkle:version>
-      <sparkle:shortVersionString>0.0.15</sparkle:shortVersionString>
+      <title>Braid 0.0.16</title>
+      <pubDate>Wed, 25 Nov 2026 18:29:15 +0000</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>0.0.16</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
            themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
       <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>Faster Share for Review.</li><li>Sharing survives Wi-Fi drops and sleep.</li><li>Log out of online galleries in Settings.</li><li>Deleting a gallery keeps the client's picks.</li><li>Fixes and polish.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.15.zip" sparkle:edSignature="Qj2ln8DQzWApp37E82mlLTTmeewTuCN1afQlYiln61GN+a10KhIFD0vy61aqs0qYPl95aKFaU/7zMg/WpHmCDA==" length="10295955" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>See and free up gallery space.</li><li>Get notified when a client finishes picking.</li><li>Copy picked file names.</li><li>Revoked galleries no longer take new picks.</li><li>Share galleries without a backup drive.</li><li>Fixes and polish.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.16.zip" sparkle:edSignature="1Iv4GYKq4nyCiyVIZECJmp6EjzfFt4waUTrssdqGg3qHs+FbQ+jGGjASKqzgWBkSi2s6b5aXBKPUO+h/aoZsAA==" length="10819454" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

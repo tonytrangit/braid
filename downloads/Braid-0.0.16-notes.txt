@@ -1,0 +1,6 @@
+- See and free up gallery space.
+- Get notified when a client finishes picking.
+- Copy picked file names.
+- Revoked galleries no longer take new picks.
+- Share galleries without a backup drive.
+- Fixes and polish.
