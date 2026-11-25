@@ -4,16 +4,16 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.14</title>
-      <pubDate>Fri, 20 Nov 2026 02:01:55 +0000</pubDate>
-      <sparkle:version>44</sparkle:version>
-      <sparkle:shortVersionString>0.0.14</sparkle:shortVersionString>
+      <title>Braid 0.0.15</title>
+      <pubDate>Wed, 25 Nov 2026 11:14:28 +0000</pubDate>
+      <sparkle:version>45</sparkle:version>
+      <sparkle:shortVersionString>0.0.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
            themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
       <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>Share Capture One sessions with clients for online review.</li><li>Client ratings and colour tags sync back to Capture One.</li><li>Gallery edits sync even while Braid is closed.</li><li>Get a notification when a client edit reaches Capture One.</li><li>Switch the source to a connected backup drive and keep the same gallery link.</li><li>Card Check turns green only when a backup drive is connected.</li><li>Braid asks before removing many files from your drives.</li><li>LiveSync recovers on its own after brief drive hiccups.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.14.zip" sparkle:edSignature="u9ObjvWvQrC/Qz002Ed+7amSmeg3hNjYnQPvixp8bp2dmvvRj5HmE7QOhjAZH5JmCmrA12qWZbAJzEiwaGtrDg==" length="9757270" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>Share for Review exports from Capture One in one go and uploads 4 images at a time.</li><li>Sharing keeps going on its own after Wi-Fi drops or the lid closes, and Resume continues where it stopped.</li><li>Cancel stops an upload right away.</li><li>Simpler Share window: open the session from it, and time left you can trust.</li><li>Log Out of your online galleries in Settings; shared galleries keep syncing.</li><li>Deleting an online gallery frees its space and still saves the client's last picks.</li><li>Gallery sync no longer asks for Keychain access in the background.</li><li>Braid spots a gallery helper running from an old copy and fixes it with one click.</li><li>The gallery viewer menu closes when you tap outside it on a phone.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.15.zip" sparkle:edSignature="Qj2ln8DQzWApp37E82mlLTTmeewTuCN1afQlYiln61GN+a10KhIFD0vy61aqs0qYPl95aKFaU/7zMg/WpHmCDA==" length="10295955" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
