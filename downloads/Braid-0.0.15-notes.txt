@@ -1,9 +1,5 @@
-- Share for Review exports from Capture One in one go and uploads 4 images at a time.
-- Sharing keeps going on its own after Wi-Fi drops or the lid closes, and Resume continues where it stopped.
-- Cancel stops an upload right away.
-- Simpler Share window: open the session from it, and time left you can trust.
-- Log Out of your online galleries in Settings; shared galleries keep syncing.
-- Deleting an online gallery frees its space and still saves the client's last picks.
-- Gallery sync no longer asks for Keychain access in the background.
-- Braid spots a gallery helper running from an old copy and fixes it with one click.
-- The gallery viewer menu closes when you tap outside it on a phone.
+- Faster Share for Review.
+- Sharing survives Wi-Fi drops and sleep.
+- Log out of online galleries in Settings.
+- Deleting a gallery keeps the client's picks.
+- Fixes and polish.

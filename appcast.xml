@@ -12,7 +12,7 @@
       <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
            themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
       <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>Share for Review exports from Capture One in one go and uploads 4 images at a time.</li><li>Sharing keeps going on its own after Wi-Fi drops or the lid closes, and Resume continues where it stopped.</li><li>Cancel stops an upload right away.</li><li>Simpler Share window: open the session from it, and time left you can trust.</li><li>Log Out of your online galleries in Settings; shared galleries keep syncing.</li><li>Deleting an online gallery frees its space and still saves the client's last picks.</li><li>Gallery sync no longer asks for Keychain access in the background.</li><li>Braid spots a gallery helper running from an old copy and fixes it with one click.</li><li>The gallery viewer menu closes when you tap outside it on a phone.</li></ul>]]></description>
+      <description><![CDATA[<ul><li>Faster Share for Review.</li><li>Sharing survives Wi-Fi drops and sleep.</li><li>Log out of online galleries in Settings.</li><li>Deleting a gallery keeps the client's picks.</li><li>Fixes and polish.</li></ul>]]></description>
       <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.15.zip" sparkle:edSignature="Qj2ln8DQzWApp37E82mlLTTmeewTuCN1afQlYiln61GN+a10KhIFD0vy61aqs0qYPl95aKFaU/7zMg/WpHmCDA==" length="10295955" type="application/octet-stream"/>
     </item>
   </channel>
