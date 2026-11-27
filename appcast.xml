@@ -4,16 +4,16 @@
     <title>Braid</title>
     <link>https://github.com/tonytrangit/braid</link>
     <item>
-      <title>Braid 0.0.16</title>
-      <pubDate>Wed, 25 Nov 2026 18:29:15 +0000</pubDate>
-      <sparkle:version>46</sparkle:version>
-      <sparkle:shortVersionString>0.0.16</sparkle:shortVersionString>
+      <title>Braid 0.0.17</title>
+      <pubDate>Fri, 27 Nov 2026 23:51:55 +0000</pubDate>
+      <sparkle:version>47</sparkle:version>
+      <sparkle:shortVersionString>0.0.17</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <!-- Every update matters: it can't be skipped. Builds 13 (0.0.12) and later hide Skip This Version
            themselves and show Remind Me Later; older builds can't, so for them the update is marked important. -->
       <sparkle:criticalUpdate sparkle:version="13"></sparkle:criticalUpdate>
-      <description><![CDATA[<ul><li>See and free up gallery space.</li><li>Get notified when a client finishes picking.</li><li>Copy picked file names.</li><li>Revoked galleries no longer take new picks.</li><li>Share galleries without a backup drive.</li><li>Fixes and polish.</li></ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.16.zip" sparkle:edSignature="1Iv4GYKq4nyCiyVIZECJmp6EjzfFt4waUTrssdqGg3qHs+FbQ+jGGjASKqzgWBkSi2s6b5aXBKPUO+h/aoZsAA==" length="10819454" type="application/octet-stream"/>
+      <description><![CDATA[<ul><li>Link previews with your cover photo.</li><li>Desktop alerts when a client finishes picking.</li><li>Automatic photo cleanup, one-step delete.</li><li>Manage galleries with drives unplugged.</li><li>Copy Picks updates by itself.</li><li>Gallery: full screen, Live and sort order.</li></ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/tonytrangit/braid/main/downloads/Braid-0.0.17.zip" sparkle:edSignature="4W37RngWVop4cdAHfOUqhZHdX9yvj60LrrTnPH/cxwwgnYwTwKxKz/S3NEGKzCe9+3q2P8hpcRBqsnF3/ZBrDg==" length="12195703" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>

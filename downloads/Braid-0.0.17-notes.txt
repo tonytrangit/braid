@@ -1,0 +1,6 @@
+- Link previews with your cover photo.
+- Desktop alerts when a client finishes picking.
+- Automatic photo cleanup, one-step delete.
+- Manage galleries with drives unplugged.
+- Copy Picks updates by itself.
+- Gallery: full screen, Live and sort order.
